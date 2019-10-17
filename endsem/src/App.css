@@ -1,0 +1,120 @@
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#students {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#students td, #students th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  
+}
+
+#students tr{
+  background-color: #f2f2f2;
+}
+
+#students tr:hover {background-color: #ddd;}
+
+#students th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  /* text-align: center; */
+  background-color: #4CAF50;
+  color: white;
+}
+
+.App {
+  text-align: center;
+
+}
+.start
+{
+ background-color: #000000;
+ color: #ffffff;
+ font-size: 1em;
+ padding: 5px
+}
+
+body
+{
+  /*background: linear-gradient(rgb(135, 149, 196) 0%, rgb(78, 24, 107) 44%, rgb(74, 7, 31) 100%);*/
+  
+  background: linear-gradient(89deg,#802b27, #1565C0);
+
+
+  /*background: linear-gradient(rgb(250, 147, 95) 0%, rgb(250, 145, 95) 44%, rgb(250, 147, 90) 100%);*/
+}
+
+
+.dashboard-container {
+    margin-left: 0;
+    margin-top: 4em;
+}
+
+.main-wrap {
+    padding: 1em;
+}
+
+.title-cover {
+    padding: 2em;
+    min-height: 6em;
+    color: #ffffff;
+    margin-bottom: 1em;
+}
+
+.footer-container {
+    
+    width: 100%;
+    padding-bottom: .5em;
+    text-align: center;
+    clear: both;
+}
+
+
+.dash-landing-icon-wrap {
+    display: inline-flex;
+    text-align: center;
+    width: 99%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+
+h2 {
+  color: #fff;
+  margin: 2rem 0 0 2rem;
+}
+
+.links {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+
+  a {
+    text-decoration: none;
+    margin: 1rem;
+  }
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+
+  @media screen and (max-width: 768px) {
+    flex-flow: column;
+  }
+}
